@@ -1,0 +1,38 @@
+.root {
+  display: flex;
+  gap: 20px;
+  flex-direction: row;
+  flex: 1;
+  width: 100%;
+  min-height: 100vh;
+  padding: 25px;
+
+  .column {
+    flex: 1;
+    text-align: center;
+    background: #ebebeb;
+    border-radius: 12px;
+    padding: 15px 0;
+
+    .column-head {
+      padding: 15px;
+      border-bottom: 1px solid #706e6e;
+      h3 {
+        margin: 0;
+        padding: 0;
+      }
+    }
+  }
+
+  .add-column-button {
+    width: 150px;
+    height: 40px;
+    margin-top:15px;
+    background-color: #b8edb8
+  }
+
+  .cards {
+    padding: 25px;
+    margin-bottom: 20px;
+  }
+}

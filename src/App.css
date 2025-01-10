@@ -1,0 +1,14 @@
+* {
+  box-sizing: border-box;
+}
+
+button {
+  cursor: pointer;
+  border-radius: 8px;
+  padding: 5px 15px;
+}
+
+select {
+  padding: 5px 10px;
+  border-radius: 8px;
+}

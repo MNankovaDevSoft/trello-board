@@ -1,0 +1,34 @@
+.create-card-wrap {
+  position: absolute;
+  background: rgba(0, 0, 0, 0.6);
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  .create-card-inside {
+    background: #fff;
+    padding: 15px;
+    min-width: 300px;
+
+    form {
+      display: flex;
+      flex-direction: column;
+
+      input {
+        margin-bottom: 15px;
+        height: 50px;
+        padding: 10px;
+      }
+
+      .actions-wrap {
+        display: flex;
+        gap: 15px;
+        justify-content: flex-end;
+      }
+    }
+  }
+}

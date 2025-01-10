@@ -1,0 +1,22 @@
+.card-wrap {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  padding: 10px 15px;
+  text-align: left;
+  background: #fff;
+  margin-bottom: 20px;
+
+  .actions-wrap {
+    display: flex;
+    gap: 15px;
+    margin-bottom: 15px;
+  }
+
+  .remove-card {
+    display: flex;
+    align-self: flex-end;
+    max-width: 150px;
+    background: #e89494;
+  }
+}
